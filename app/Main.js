@@ -25,7 +25,7 @@ function Main() {
     flashMessages: [],
     user: {
       token: localStorage.getItem("complexappToken"),
-      username: localStorage.getItem("complexappUsernane"),
+      username: localStorage.getItem("complexappUsername"),
       avatar: localStorage.getItem("complexappAvatar")
     }
   }
