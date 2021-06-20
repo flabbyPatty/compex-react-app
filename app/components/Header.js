@@ -13,7 +13,7 @@ function Header({ loggedIn, setLoggedIn }) {
             ComplexApp{" "}
           </Link>
         </h4>
-        {loggedIn ? <HeaderLoggedIn setLoggedIn={setLoggedIn} /> : <HeaderLoggedOut setLoggedIn={setLoggedIn} />}
+        {loggedIn ? <HeaderLoggedIn /> : <HeaderLoggedOut />}
       </div>
     </header>
   )
